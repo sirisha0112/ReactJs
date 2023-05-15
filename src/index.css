@@ -1,0 +1,241 @@
+ body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ }
+
+ /* Top Navbar */
+ .navbar{
+  width: 1500px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  padding-right: 200px;
+ }
+
+ .courses{
+  width: 61px;
+  height: 19px;
+  font-family: 'Raleway';
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  padding-bottom: 30px;
+  padding-left: 50px;
+ }
+
+ .programs{
+  width: 61px;
+  height: 19px;
+  font-family: 'Raleway';
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  padding-left: 130px;
+ }
+
+ .logIn{
+  width: 120px;
+  height: 19px;
+  font-family: 'Raleway';
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #000000;
+  padding-top: 4px;
+  padding-left: 50px;
+ }
+
+ .nav-btn{
+  margin-right: -170px;
+  margin-left: 60px;
+ }
+
+ /* Left Component */
+ .container-col1{
+  padding-top: 50px;
+  color:#FFFFFF;
+  padding-left: 90px;
+ }
+
+ .heading1{
+  width: 650px;
+  height: 70px;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 45px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+ }
+
+ .heading2{
+  width: 650px;
+  height: 70px;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 45px;
+  letter-spacing: -0.01rem;
+ }
+
+ .txt-decor{
+  text-decoration: line-through;
+  color: white;
+  text-decoration-color: #FF0000;
+ }
+
+ .clr-txt{
+  color: #0096FF;
+ }
+
+ .paragraph{
+  padding-left:60px; 
+  font-size:30px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  letter-spacing: 0.03em;
+ }
+
+ /* Right Container */
+ .container-col2{
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-bottom: 50px;
+ }
+
+ .form-container{
+  background-color:#FFFFFF; 
+  padding: 25px; 
+  width: 550px; 
+  height: 800px;
+ }
+
+ .icons{
+  display: flex; 
+  justify-content: space-around;
+ }
+
+ .signup{
+  position: relative ;
+  right: 6px;
+  width: 54px;
+  height: 19px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+  color: #3C4852;
+ }
+
+ .subscribe{
+  position: relative;
+  right: 12px;
+ }
+
+ .heading3{
+  width: 501px;
+  height: 30px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  color: #3C4852;
+  padding-bottom: 15px;
+ }
+
+ .subscription1{
+  width: 501px;
+  height: 65px; 
+  background-color: #E7E7E7;
+  border: 2px solid #BEBEBE;
+  border-radius: 4px; 
+  display: flex;
+  justify-content: space-between;  
+  margin-bottom: 8px; 
+  align-items: center;
+  padding-top: 30px;
+ }
+
+ .subs1-p1{
+  position: relative;
+  bottom: 42px;
+  left: 62px;
+  width: 121px;
+  height: 20px;
+  background-color: #F77171;
+  text-align: center;
+  border-radius: 0px 0px 4px 4px;
+ }
+
+ .subscription2{
+  width: 501px;
+  height: 65px;
+  background: #D7EDDD;
+  border: 2px solid #47BA68;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  align-items: center;
+  padding-top: 30px;
+ }
+
+ .subs2-p2{
+  position:relative; 
+  bottom:42px; 
+  left:62px; 
+  width:121px; 
+  height:20px; 
+  background-color:#47BA68; 
+  border-radius:2px; 
+  text-align:center;
+ }
+
+ .subscription3{
+  width: 501px;
+  height: 65px;
+  background-color: #FFFFFF;
+  border: 2px solid #BEBEBE;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding-top: 12px;
+ }
+
+ .subscription4{
+  align-items: center;
+  box-sizing: border-box;
+  border-color: #DE4313;
+  background: linear-gradient(135deg, rgba(222, 67, 19, 0.2) 0%, rgba(222, 67, 19, 0.2) 0.75%, rgba(222, 67, 19, 0.2) 2.92%, rgba(222, 68, 20, 0.2) 6.37%, rgba(223, 69, 21, 0.2) 10.97%, rgba(223, 72, 22, 0.2) 16.59%, rgba(224, 75, 24, 0.2) 23.1%, rgba(225, 80, 27, 0.2) 30.37%, rgba(227, 86, 31, 0.2) 38.27%, rgba(229, 94, 36, 0.2) 46.66%, rgba(231, 104, 43, 0.2) 55.41%, rgba(235, 117, 51, 0.2) 64.39%, rgba(238, 132, 60, 0.2) 73.47%, rgba(243, 149, 71, 0.2) 82.52%, rgba(248, 169, 84, 0.2) 91.41%, rgba(254, 193, 99, 0.2) 100%);
+  border-radius: 8px;
+ }
+ 
+ .total-cont{
+  display: flex;
+  justify-content: space-between;
+ }
+ 
+ .total-cont-p2{
+  padding-right: 12px;
+  font-family: Roboto; 
+  font-size: 24px;
+ }
+
+ .btn1{
+  padding: 12px 12px;
+  width: 220px;
+  background: #FFFFFF;
+  border-radius: 8px;
+ }
+
+ .btn2{
+  padding: 12px 12px;
+  width: 220px;
+  background: #47BA68;
+  border-radius: 8px;
+ }
